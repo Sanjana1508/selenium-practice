@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="5">
+<!--    <parameter name="url" value="google.com"></parameter>-->
+    <listeners>
+        <listener class-name="test.Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/home/sanjp/IdeaProjects/TestNG" parallel="classes" thread-count="3">
+        <parameter name="url" value="google.com"></parameter>
+        <groups>
+            <run>
+                <exclude name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="test.Category">
+               <!-- <methods>
+                    <exclude name="catFirstTest"/>
+                    <include name="catSecondTest"/>
+                </methods>-->
+            </class>
+
+        </classes>
+    </test>
+    <test name="Second">
+        <parameter name="url" value="yahoo.com"></parameter>
+        <parameter name="apikey" value="1234"></parameter>
+        <classes>
+            <class name="test.Demo">
+                <!-- <methods>
+                     <include name="firstTest"/>
+                     <include name="secondTest"/>
+                 </methods>-->
+            </class>
+        </classes>
+    </test>
+</suite>

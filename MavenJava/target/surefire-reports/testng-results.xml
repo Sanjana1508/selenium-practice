@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="57" started-at="2021-07-15T16:17:24 IST" finished-at="2021-07-15T16:17:24 IST">
+    <groups>
+    </groups>
+    <test name="/home/sanjp/IdeaProjects/MavenJava" duration-ms="57" started-at="2021-07-15T16:17:24 IST" finished-at="2021-07-15T16:17:24 IST">
+      <class name="com.demo.SeleniumTest">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:com.demo.SeleniumTest@6536e911]" name="firstTest" duration-ms="5" started-at="2021-07-15T16:17:24 IST" finished-at="2021-07-15T16:17:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:com.demo.SeleniumTest@6536e911]" name="secondTest" duration-ms="0" started-at="2021-07-15T16:17:24 IST" finished-at="2021-07-15T16:17:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- com.demo.SeleniumTest -->
+    </test> <!-- /home/sanjp/IdeaProjects/MavenJava -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
